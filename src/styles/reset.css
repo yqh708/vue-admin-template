@@ -1,0 +1,39 @@
+/**
+ * 
+ * reset
+ */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,
+a, img, ul, li,
+form, label, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    vertical-align: baseline;
+}
+/* custom */
+a {
+    text-decoration: none;
+    -webkit-backface-visibility: hidden;
+}
+li {
+    list-style: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix {
+    zoom: 1;
+}
+/*==for IE6/7 Maxthon2==*/
+.clearfix:after {
+    clear: both;
+    content: '.';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
